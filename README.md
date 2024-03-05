@@ -1,13 +1,14 @@
 # Generating Chords from Melody with Flexible Harmonic Rhythm and Controllable Harmonic Density
 
-This is the source code of AutoHarmonizer, a harmonic density-controllable melody harmonization system with flexible harmonic rhythm, trained/validated on Wikifonia.org's lead sheet dataset.  
+This is the source code of AutoHarmonizer, a harmonic density-controllable melody harmonization system with flexible harmonic rhythm, with the original model trained/validated on Wikifonia.org's lead sheet dataset. This forked model is trained on a dataset covering pieces from the Baroque and Romantic period for research purposes.
   
 The input melodies and harmonized samples are in the `inputs` and `outputs` folders respectively.  
   
 The musical discrimination test is available at https://sander-wood.github.io/autoharmonizer/test.  
   
-For more information, see our paper: [arXiv paper](https://arxiv.org/abs/2112.11122).
-  
+For more information, see the author's paper: [arXiv paper](https://arxiv.org/abs/2112.11122).
+Original repo: https://github.com/sander-wood/autoharmonizer
+
 ## Install Dependencies
 Python: 3.7.9  
 Keras: 2.3.0  
